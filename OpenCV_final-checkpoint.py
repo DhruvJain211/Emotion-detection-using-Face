@@ -8,6 +8,7 @@ import cv2
 import numpy as np
 
 
+
 face_classifier = cv2.CascadeClassifier(r'/Users/mac/Downloads/Emotion_Detection_CNN-main/haarcascade_frontalface_default.xml')
 classifier =load_model(r'/Users/mac/Downloads/Emotion_Detection_CNN-main/model.h5')
 
